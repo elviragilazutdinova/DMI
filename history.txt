@@ -1,0 +1,26 @@
+    1  umane -r
+    2  uname -r
+    3  cat/etc/*-release
+    4  cat /etc/*-release
+    5  echo $0
+    6  man uname -r
+    7  pwd
+    8  whoami
+    9  who
+   10  ls
+   11  cd Documents/
+   12  pwd
+   13  ls -la
+   14  cd 
+   15  cd .
+   16  cd Documents/
+   17  pwd
+   18  cd .
+   19  pew
+   20  pwd
+   21  cd ..
+   22  mkdir darbi
+   23  ls
+   24  cd darbi
+   25  history
+   26  history > history.txt
