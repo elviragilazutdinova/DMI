@@ -24,3 +24,44 @@
    24  cd darbi
    25  history
    26  history > history.txt
+   27  ls -la
+   28  cat history.txt
+   29  pwd
+   30  ls
+   31  git init
+   32  git add .
+   33  git commit "20170913_13_13"
+   34  git config --global user.email elvira113@mail.ru
+   35  git commit -m "20170913_13_13"
+   36  ls
+   37  echo $0
+   38  man echo
+   39  echo Tecmint is a community of Linux Nerds
+   40  x=10
+   41  echo The value of variable x = $x
+   42  echo -e "Tecmint \bis \ba \bcommunity \bof "
+   43  echo -e "Tecmint \bis \bcommunity \bof \bLinux \bNerds" TecmintisacommunityofLinuxNerds
+   44  echo -e "Tecmint \bis \ba\ bcommunity \bof \bLinux \nNerds" TecmintisacommunityofLinuxNerds
+   45  echo -e "Tecmint \tis \ta \tcommunity \tof \tLinux \tNerds" Tecmint is a community of Linux Nerds
+   46  echo -e "\n\tTecmint \n\tis\ \n\ta\ \n\tcommunity \n\tof \n\tLinux \n\tNerds""
+
+
+echo -e "Tecmint \bis \ba\ bcommunity \bof \bLinux \nNerds" TecmintisacommunityofLinuxNerds
+q
+   47  echo -e "\n\tTecmint \n\tis \n\ta n\ntcommunity \n\tof \n\tLinux \n\tNerds"
+   48  echo -e "\vTecmint \vis \va \vcommunity \vof 
+   49  echo -e "\vTecmint \vis \va \vcommunity \vof \vLinux \vNerds"
+   50  echo -e "\n\vTecmint \n\vis \n\va \n\vcommunity 
+n
+   51  echo -e "\n\vTecmint \n\vis 
+   52  echo -e "Tecmint \ris a community of Linux Nerds"
+   53  echo -e "Tecmint is a community \cof Linux Nerds"
+   54  echo -n "Tecmint is a community of Linux Nerds"
+   55  echo -e "Tecmint is a community of \aLinuz Nerds"
+   56  echo "Test Page" > testpage
+   57  echo *
+   58  echo *.txt
+   59  echo "Test Page" > teksts.txt
+   60  pwd
+   61  ls -l
+   62  history > history.txt
