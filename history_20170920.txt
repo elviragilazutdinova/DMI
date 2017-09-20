@@ -1,0 +1,66 @@
+    1  ls -l
+    2  git clone https://github.com/elviragilazutdinova/DMI
+    3  ls -l
+    4  nano 
+    5  ls -l
+    6  cat git-download.sk
+    7  cat gitdownload.sk
+    8  ls
+    9  echo $PATH
+   10  whereis ls
+   11  cat /bin/ls/
+   12  ls -l /bin/ls
+   13  ls -l
+   14  ls
+   15  /bin/ls
+   16  ls -l
+   17  /home/user/gitdownload.sk
+   18  chmod 744 gitdownload.sk
+   19  pwd
+   20  ~/gitgownload.sk
+   21  ./gitdownload.sk
+   22  ls -l
+   23  ./gitdownload.sk
+   24  nano gitdownload.sk
+   25  mv gitdownload.sk gitdownload.sh
+   26  ./gitdownload.sh
+   27  whereis ls
+   28  nano gitdownload.sk
+   29  nano \gitdownload.sh
+   30  ./gitdownload.sh
+   31  nano \gitdownload.sh
+   32  echo $PATH
+   33  PATH=/home/user:$PATH
+   34  echo $PATH
+   35  gitdownload.sh
+   36  pwdpwd\
+   37  pwd
+   38  PATH=/tmp/guest-a82JRo:$PATH
+   39  echo $PATH
+   40  gitdownload.sh
+   41  mv gitdownload.sh git-download
+   42  ls
+   43  git-download
+   44  mkdir darbi
+   45  cd darbi
+   46  git-download
+   47  ls
+   48  cd DMI
+   49  cd ..
+   50  DMI
+   51  cd DMI
+   52  ls -l
+   53  whereis git-download
+   54  ls ~/
+   55  cp ~/git-download ./
+   56  ls -l
+   57  nano git-upload
+   58  ls -l
+   59  chmod 744 git-upload
+   60  ls -l
+   61  ls -la
+   62  pwd
+   63  PATH=$PATH:/tmp/guest-a82JRo/darbi/DMI
+   64  git-upload
+   65  ls -l
+   66  history > history_20170920.txt
