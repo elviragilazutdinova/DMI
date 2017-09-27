@@ -1,0 +1,25 @@
+    1  git clone https://github.com/elviragilazutdinova/DMI
+    2  cd DMI
+    3  ls -l
+    4  NAME="Zara"
+    5  mainigais=10
+    6  echo $mainigais
+    7  echo $mainiigais
+    8  mainigais__=20
+    9  echo $mainigais__
+   10  pwd
+   11  nano shell_programming.sh
+   12  la -l
+   13  chmod 744 shell_programming.sh
+   14  ls -l
+   15  shell_programming.sh
+   16  pwd
+   17  ./shell_programming.sh
+   18  nano shell_programming.sh
+   19  ./shell_programming.sh
+   20  nano shell_programming.sh
+   21  ./shell_programming.sh
+   22  nano shell_programming.sh
+   23  ls -a
+   24  nano git-upload
+   25  history > history_20170927.txt
