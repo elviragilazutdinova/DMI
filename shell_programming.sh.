@@ -7,9 +7,9 @@ echo "tiek pildīts skripts: " $0
 echo "Skriptam nodoto argumentu skaits" $#
 echo "Skriptam nodoti argumenti (attelošana/grupešana 1):"  $*
 echo "Skriptam nodoti argumenti (attelošana/grupēšana 2):" $@
-echo $?
+#echo $?
 echo "Skriptam piešķirtais procesa numurs" $$
-echo $!
+#echo $!
 
 #echo "File Name: $0"
 #echo "First Parameter : $1"

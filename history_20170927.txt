@@ -23,3 +23,38 @@
    23  ls -a
    24  nano git-upload
    25  history > history_20170927.txt
+   26  git-upload
+   27  pwd
+   28  PATH=$PATH:/tmp/guest-0kNJmH/DMI
+   29  echo $PATH
+   30  git-upload
+   31  pwd
+   32  PATH=$PATH:~/DMI
+   33  echo $PATH
+   34  git-upload
+   35  cat git-upload
+   36  nano shell_programming.sh
+   37  echo $0
+   38  echo $n
+   39  echo $#
+   40  echo $*
+   41  echo $!
+   42  nano shell_programming.sh
+   43  shell_programming.sh
+   44  cat shell_programming.sh 
+   45  shell_programming.sh arg1
+   46  shell_programming.sh arg1 arg2
+   47  shell_programming.sh arg1 arg2 arg3
+   48  nano shell_programming.sh
+   49  shell_programming.sh
+   50  nano shell_programming.sh
+   51* shell_programming.sh arg1
+   52  nano shell_programming.sh
+   53  shell_programming.sh arg1 arg2
+   54  nano shell_programming.sh
+   55  shell_programming.sh arg1 arg2
+   56  nano shell_programming.sh
+   57  shell_programming.sh arg1 arg2
+   58  git_upload
+   59  nano git-upload
+   60  history > history_20170927.txt
