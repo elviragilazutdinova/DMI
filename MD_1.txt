@@ -1,0 +1,64 @@
+        uname –r “parâdas sistçmas informâcija”
+cat /etc/*-release “parâda "oficiâlu" informâciju par izplatîðanas versiju, ko reìistrç izstrâdâtâji”
+echo $0 “parâdas shell veids (bash)”
+pwd “parâda strâdâjoðas direktorijas nosaukumu”
+whoami “lietotaja ID”
+ls “tiek parâdîts saraksts ar direktorijas saturu”
+cd Documents “maina darbas direktoriju, iegâja Documents direktorijâ”
+ls –la “tiek parâdîts saraksts ar direktorijas saturu ar paplaðinatu informâciju par katru saturoðu failu, cik ir failu, lietotâju tiesîbu ieraksti”
+cd . “paliek sava direktorijâ, kurâ tagad ir strâdâjoðâ”
+cd .. “maina darbas direktoriju (kâ arî cd -) uz iepriekðçjo darba direktoriju (uz direktoriju, kur atrodas Documents)”
+mkdir darbi “veidojam jaunu direktoriju “darbi”
+cd darbi “maina darbas direktoriju, iegâja “darbi” direktorijâ”
+history > history.txt “saglâbajam history.txt “darbi” direktorijâ”
+cat history.txt “rada visu history.txt saturu”
+git init “veidojam empty git repository “darbi” direktorijâ”
+git add . “strâdâjam ar tekoðo direktoriju”
+git commit "20170913_13_13" “Ierakstiet izmaiòas krâtuvç (repository)”
+git config --global user.email elvira113@mail.ru “konfigurejam lietotâja parametrus”
+git clone https://github.com/elviragilazutdinova/DMI “klonç krâtuvi (repository) no github uz citu (datora) direktoriju”
+ls –l “tiek parâdîts saraksts ar direktorijas (Documents) saturu paplaðinâta veidâ”
+nano “veido skriptu gitdownload.sk”
+cat gitdownload.sk “apraksta kas ir gitdownload.sk skriptâ iekðâ”
+echo $PATH “râda visus iespçjamus ceïus pie direktorijam”
+whereis ls “atrodiet kâ ls atrodas /bin/ls/”
+cat /bin/ls/ “apraksta kas ir /bin/ls/”
+/bin/ls “radâ kâ direktorijas /bin/ls  mapç nav aktîvâs”
+mv gitdownload.sk gitdownload.sh “pârvietojam no .sk uz .sh (mainam nosaukumu)”
+./gitdownload.sh “radâ, kâ DMI directotija jau eksistç un ta nav tukða”
+PATH=/home/user:$PATH “pievienojam /home/user pie visiem citiem ceïiem (PATH)”
+echo $PATH “pârbaudâm vai ir pievienota /home/user pie ceïiem”
+gitdownload.sh “comanda nav atrasta”
+pwd “parâda strâdâjoðas direktorijas vietu”
+PATH=/tmp/guest-a82JRo:$PATHv “pievenojiem pie ceïiem dabûtu rezultatu pçc iepriekðçjâ pwd, kas ir lietotaja ID”
+echo $PATH “pârbaudâm vai ir pievienota =/tmp/guest-a82JRo pie ceïiem”
+mv gitdownload.sh git-download “pârvietojam no gitdownload.sk uz git-download (mainam nosaukumu)”
+ls “pârbaudâm, ka git-download tagad atrodas ar visiem direktorijam un ir aktîvâ”
+mkdir darbi “veidojam jaunu direktoriju “darbi”
+cd darbi “maina darbas direktoriju, iegâja “darbi” direktorijâ”
+
+git-download “laiþam skriptu, lai saglabat failu no github.com lietotaja vietnes (repository), bet radâ, kâ DMI directotija jau eksistç un ta nav tukða”
+cd DMI “maina darbas direktoriju, iegâja DMI direktorija”
+ls –l “pâradâs visi faili ðajâ, redzams, ka nav git-download”
+ls ~/ “radâ visas direktorijas, kuras atrodas ðajâ datorâ (ne tikai DMI)”
+cp ~/git-download ./ “veidojam git-download kopiju uz DMI”
+ls –l “tagad git-download pâradâs DMI direktorijâ”
+nano git-upload “veido skriptu git-upload”
+chmod 744 git-upload “mainam îpaðnieka un lietotâja tiesîbas”
+ls –l “pie DMI failiem parâdas arî git-upload“
+pwd “parâda strâdâjoðas direktorijas vietu”
+PATH=$PATH:/tmp/guest-a82JRo/darbi/DMI “paplaðinâjiem ceïus”
+git-upload “laiþam skriptu, lai saglabat failu github.com lietotâja vietnç (repository)”
+66 history > history_20170920.txt “saglabajam github.com ar jaunu nosaukumu”
+./shell_programming.sh ““palaiþa skriptu shell_programming.sh”
+echo $0 "tiek pildîts skripts $0”
+echo $n
+echo $# "Skriptam nodoto argumentu skaits" 
+echo $* "Skriptam nodoti argumenti (atteloðana/grupeðana 1)" 
+echo $! "Skriptam nodoti argumenti (atteloðana/grupçðana 2):" 
+cat shell_programming.sh “râda visu saturu (tekstu), kas atrodas shell_programming.sh”
+shell_programming.sh arg1 “râda skriptam nodotas argumentus” 
+shell_programming.sh arg1 arg2 “râda skriptam nodotas argumentus” 
+shell_programming.sh arg1 arg2 arg3 “râda skriptam nodotas argumentus” 
+git_upload “laiþam skriptu, lai saglabat failu github.com lietotâja vietnç (repository)”
+60 history > history_20170927.txt “saglabajam github.com ar jaunu nosaukumu”
