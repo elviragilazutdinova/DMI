@@ -1,0 +1,66 @@
+    1  git clone https://github.com/elviragilazutdinova/DMI
+    2  ls -la
+    3  cd DMI
+    4  ls -l
+    5  cat shell_programming.sh
+    6  nano shell_operators.sh
+    7  shell_operators.sh
+    8  ./shell_operators.sh
+    9  ls - l
+   10  ls -l
+   11  chmod 774 shell_operators.sh
+   12  ls -l
+   13  ./shell_operators.sh
+   14  pwd
+   15  nano shell_operators.sh
+   16  ./shell_operators.sh
+   17  nano shell_operators.sh
+   18  ./shell_operators.sh
+   19  nano shell_operators.sh
+   20  ./shell_operators.sh
+   21  nano shell_operators.sh
+   22  ./shell_operators.sh
+   23  nano shell_operators.sh
+   24  ./shell_operators.sh
+   25  nano shell_operators.sh
+   26  ./shell_operators.sh
+   27  nano shell_operators.sh
+   28  ./shell_operators.sh
+   29  nano shell_operators.sh
+   30  ./shell_operators.sh
+   31  nano shell_operators.sh
+   32  ./shell_operators.sh
+   33  nano shell_operators.sh
+   34  ./shell_operators.sh
+   35  nano shell_operators.sh
+   36  ./shell_operators.sh
+   37  nano shell_operators.sh
+   38  ./shell_operators.sh
+   39  nano shell_operators.sh
+   40  ./shell_operators.sh
+   41  nano shell_operators.sh
+   42  ./shell_operators.sh
+   43  nano shell_operators.sh
+   44  ./shell_operators.sh
+   45  nano shell_operators.sh
+   46  ./shell_operators.sh
+   47  nano shell_operators.sh
+   48  ./shell_operators.sh
+   49  nano shell_operators.sh
+   50  ./shell_operators.sh
+   51  nano shell_operators.sh
+   52  ./shell_operators.sh
+   53  nano shell_operators.sh
+   54  ./shell_operators.sh
+   55  nano shell_operators.sh
+   56  ./shell_operators.sh
+   57  nano shell_operators.sh
+   58  ./shell_operators.sh
+   59  nano shell_operators.sh
+   60  ./shell_operators.sh
+   61  nano shell_operators.sh
+   62  ./shell_operators.sh
+   63  nano shell_operators.sh
+   64  ./shell_operators.sh
+   65  nano git-upload
+   66  history > history_20171011.txt
