@@ -64,3 +64,39 @@
    64  ./shell_operators.sh
    65  nano git-upload
    66  history > history_20171011.txt
+   67  ./git-upload
+   68  nano shell_operators.sh
+   69  ./shell_operators.sh
+   70  nano shell_operators.sh
+   71  ./shell_operators.sh a b
+   72  nano shell_operators.sh
+   73  ./shell_operators.sh 5 3
+   74  nano shell_operators.sh
+   75  ./shell_operators.sh 89 45
+   76  nano shell_operators.sh
+   77  ./shell_operators.sh 
+   78  nano shell_operators.sh
+   79  ./shell_operators.sh 
+   80  nano shell_operators.sh
+   81  ./shell_operators.sh 
+   82  ./shell_operators.sh 4 5
+   83  ./shell_operators.sh 4 4
+   84  nano shell_operators.sh
+   85  ./shell_operators.sh 4 5
+   86  ./shell_operators.sh 4 4
+   87  nano shell_operators.sh
+   88  ./shell_operators.sh 4 4
+   89  nano shell_operators.sh
+   90  ./shell_operators.sh 4 5
+   91  nano git-upload
+   92  history > history_20171011_11_25.txt
+   93  ./git-upload
+   94  nano shell_operators.sh
+   95  ./shell_operators.sh
+   96  nano shell_operators.sh
+   97  ./shell_operators.sh
+   98  ./shell_operators.sh 5
+   99  ./shell_operators.sh 5 8
+  100  nano shell_operators.sh
+  101  nano git-upload
+  102  history > history_20171011.txt

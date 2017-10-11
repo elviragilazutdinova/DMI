@@ -1,4 +1,5 @@
 #!/bin/bash
+: <<'END'
 
 # 5. piemērs - operacijas ar 
 a=$1
@@ -56,11 +57,15 @@ else
 echo "a -le b : a is not less or equal to b"
 fi
 
+END
 
 
-: <<'END'
 # 4. piemērs - operacijas ar argumentiem
 
+if [ $# == 2 ]
+#ja (if) skripta nodoto argumentu skaits ($#) ir vienāds (==) ar 2
+then
+#tad (then) izpildam sekojošas darbības līdz...
 a=$1
 b=$2
 val41=`expr $a + $b`
@@ -73,8 +78,10 @@ val44=`expr $a % $b`
 echo "Total value a%b = "$val44
 val45=`expr $a - $b`
 echo "Total value a-b = "$val45
+#līdz šai vietai
+fi
 
-echo $*
+: <<'END'
 
 #3. piemērs - operacijas ar mainīgājiem
 
