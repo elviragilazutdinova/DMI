@@ -1,0 +1,33 @@
+    1  git clone https://github.com/elviragilazutdinova/DMI.git
+    2  cd DMI
+    3  ls - l
+    4  ls -l
+    5  nano dialogs.sh
+    6  chmod 744 dialogs.sh 
+    7  ./dialogs.sh
+    8  nano dialogs.sh
+    9  ./dialogs.sh
+   10  nano dialogs.sh
+   11  ./dialogs.sh
+   12  nano dialogs.sh
+   13  ./dialogs.sh
+   14  nano dialogs.sh
+   15  cp dialogs.sh a_VS_b.sh
+   16  nano a_VS_b.sh
+   17  nano dialogs.sh
+   18  ./dialogs.sh
+   19  ./a_VS_b.sh
+   20  nano a_VS_b.sh
+   21  ./a_VS_b.sh
+   22  nano a_VS_b.sh
+   23  ./a_VS_b.sh
+   24  nano a_VS_b.sh
+   25  ./a_VS_b.sh
+   26  nano dialogs.sh
+   27  ./a_VS_b.sh
+   28  nano dialogs.sh
+   29  nano a_VS_b.sh
+   30  cp a_VS_b.sh a_VS_b_VS_c.sh
+   31  nano a_VS_b_VS_c.sh
+   32  nano git-upload
+   33  history > history_20171018.txt
