@@ -1,0 +1,38 @@
+    1  git clone https://github.com/elviragilazutdinova/DMI.git
+    2  cd DMI
+    3  ls -l
+    4  nano if_CO2.sh
+    5  chmod 744 if_CO2.sh
+    6  nano if_CO2.sh
+    7  if_CO2.sh
+    8  ./if_CO2.sh
+    9  nano if_CO2.sh
+   10  ./if_CO2.sh
+   11  ./if_CO2.sh 10
+   12  ./if_CO2.sh -10
+   13  nano if_CO2.sh
+   14  ./if_CO2.sh -10
+   15  ./if_CO2.sh 10
+   16  nano if_CO2.sh
+   17  ./if_CO2.sh 10
+   18  ./if_CO2.sh -10
+   19  nano if_CO2.sh
+   20  ./if_CO2.sh 10
+   21  ./if_CO2.sh -10
+   22  ./if_CO2.sh 0
+   23* 
+   24  cp if_CO2.sh sorting.sh
+   25  nano sorting.sh
+   26  nano array__loop.sh
+   27  chmod 744 array_loop.sh
+   28  chmod 744 array__loop.sh
+   29  ./744 array__loop.sh
+   30  ./array__loop.sh
+   31  nano array__loop.sh
+   32  ./array__loop.sh 10 89 63
+   33  nano array__loop.sh
+   34  ./array__loop.sh 10 89
+   35  nano array__loop.sh
+   36  ./array__loop.sh 10 89 5 8 5 8 4 8
+   37  nano sorting.sh
+   38  history > history_20171025.txt
