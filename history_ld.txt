@@ -1,0 +1,141 @@
+    1  nano md.py
+    2  chmod 744 md.py
+    3  md.py
+    4  ./md.py
+    5  nano md.py
+    6  ./md.py
+    7  nano md.py
+    8  ./md.py
+    9  nano ms.py
+   10  nano md.py
+   11  ./md.py
+   12  nano md.py
+   13  ./md.py
+   14  nano md.py
+   15  ./md.py
+   16  nano md.py
+   17  nano ms.py
+   18  nano md.py
+   19  ./md.py
+   20  nano md.py
+   21  ./md.py
+   22  nano md.py
+   23  ./md.py
+   24  nano md.py
+   25  ./md.py
+   26  nano md.py
+   27  ./md.py
+   28  nano md.py
+   29  ./md.py
+   30  nano md.py
+   31  ./md.py
+   32  nano md.py
+   33  ./md.py
+   34  nano md.py
+   35  ./md.py
+   36  nano md.py
+   37  ./md.py
+   38  nano md.py
+   39  ./md.py
+   40  nano md.py
+   41  ./md.py
+   42  nano md.py
+   43  ./md.py
+   44  nano md.py
+   45  ./md.py
+   46  nano md.py
+   47  ./md.py
+   48  nano md.py
+   49  ./md.py
+   50  nano md.py
+   51  ./md.py
+   52  nano md.py
+   53  ./md.py
+   54  nano md.py
+   55  ./md.py
+   56  nano md.py
+   57  ./md.py
+   58  nano md.py
+   59  ./md.py
+   60  nano md.py
+   61  ./md.py
+   62  nano md.py
+   63  ./md.py
+   64  nano md.py
+   65  ./md.py
+   66  nano md.py
+   67  ./md.py
+   68  nano md.py
+   69  ./md.py
+   70  nano md.py
+   71  ./md.py
+   72  nano md.py
+   73  ./md.py
+   74  nano md.py
+   75  ./md.py
+   76  nano md.py
+   77  ./md.py
+   78  nano md.py
+   79  ./md.py
+   80  nano md.py
+   81  ./md.py
+   82  nano md.py
+   83  ./md.py
+   84  nano md.py
+   85  ./md.py
+   86  nano md.py
+   87  ./md.py
+   88  nano md.py
+   89  ./md.py
+   90  nano md.py
+   91  ./md.py
+   92  nano md.py
+   93  ./md.py
+   94  nano md.py
+   95  ./md.py
+   96  nano md.py
+   97  ./md.py
+   98  nano md.py
+   99  ./md.py
+  100  nano md.py
+  101  ./md.py
+  102  nano md.py
+  103  ./md.py
+  104  nano md.py
+  105  ./md.py
+  106  nano md.py
+  107  ./md.py
+  108  nano md.py
+  109  ./md.py
+  110  nano md.py
+  111  ./md.py
+  112  nano md.py
+  113  ./md.py
+  114  nano md.py
+  115  ./md.py
+  116  nano md.py
+  117  git clone https://github.com/elviragilazutdinova/DMI.git
+  118  sudo apt install git
+  119  git clone https://github.com/elviragilazutdinova/DMI.git
+  120  pwd
+  121  ls -l
+  122  cd DMI
+  123  ls -l
+  124  cd PYTHON
+  125  ls -l
+  126  ld_atlikumi.py
+  127  nano ld_atlikumi.py
+  128  chmod 744 ld_atlikumi.py
+  129  ./ld_atlikumi.py
+  130  nano ld_atlikumi.py
+  131  ./ld_atlikumi.py
+  132  nano ld_atlikumi.py
+  133  ./ld_atlikumi.py
+  134  nano ld_atlikumi.py
+  135  ./ld_atlikumi.py
+  136  nano ld_atlikumi.py
+  137  ./ld_atlikumi.py
+  138  nano ld_atlikumi.py
+  139  ./ld_atlikumi.py
+  140  cd ..
+  141  history > history_ld.txt
