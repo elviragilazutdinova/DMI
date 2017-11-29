@@ -1,0 +1,14 @@
+    1  git clone https://github.com/elviragilazutdinova/DMI.git
+    2  cd DMI
+    3  cd PYTHON
+    4  pwd
+    5  idle &
+    6  l
+    7  cat python_diary_20171129_co2.py
+    8  idle &
+    9  python zimesana_c02.py 
+   10  cat zimesana_c02.py 
+   11  idle &
+   12  ls -lt
+   13  cd ..
+   14  history > history_20171129_a.txt
