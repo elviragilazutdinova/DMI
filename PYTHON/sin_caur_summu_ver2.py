@@ -2,7 +2,7 @@
 from math import sin
 # a0, a1, a2, a3
 # S0, S1, S2, S3 -> S
-x = 1.* input ("Lietotāj, lūdzu, ievadi x argumentu (x): ")
+x = 1. * input("Lietotāj, lūdzu, ievadi x argumentu (x): ")
 print type(x)
 y = sin(x)
 print "sin(%.2f)=%.2f"%(x,y)

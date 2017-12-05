@@ -1,0 +1,189 @@
+    1  nano md.py
+    2  chmod 744 md.py
+    3  md.py
+    4  ./md.py
+    5  nano md.py
+    6  ./md.py
+    7  nano md.py
+    8  ./md.py
+    9  nano ms.py
+   10  nano md.py
+   11  ./md.py
+   12  nano md.py
+   13  ./md.py
+   14  nano md.py
+   15  ./md.py
+   16  nano md.py
+   17  nano ms.py
+   18  nano md.py
+   19  ./md.py
+   20  nano md.py
+   21  ./md.py
+   22  nano md.py
+   23  ./md.py
+   24  nano md.py
+   25  ./md.py
+   26  nano md.py
+   27  ./md.py
+   28  nano md.py
+   29  ./md.py
+   30  nano md.py
+   31  ./md.py
+   32  nano md.py
+   33  ./md.py
+   34  nano md.py
+   35  ./md.py
+   36  nano md.py
+   37  ./md.py
+   38  nano md.py
+   39  ./md.py
+   40  nano md.py
+   41  ./md.py
+   42  nano md.py
+   43  ./md.py
+   44  nano md.py
+   45  ./md.py
+   46  nano md.py
+   47  ./md.py
+   48  nano md.py
+   49  ./md.py
+   50  nano md.py
+   51  ./md.py
+   52  nano md.py
+   53  ./md.py
+   54  nano md.py
+   55  ./md.py
+   56  nano md.py
+   57  ./md.py
+   58  nano md.py
+   59  ./md.py
+   60  nano md.py
+   61  ./md.py
+   62  nano md.py
+   63  ./md.py
+   64  nano md.py
+   65  ./md.py
+   66  nano md.py
+   67  ./md.py
+   68  nano md.py
+   69  ./md.py
+   70  nano md.py
+   71  ./md.py
+   72  nano md.py
+   73  ./md.py
+   74  nano md.py
+   75  ./md.py
+   76  nano md.py
+   77  ./md.py
+   78  nano md.py
+   79  ./md.py
+   80  nano md.py
+   81  ./md.py
+   82  nano md.py
+   83  ./md.py
+   84  nano md.py
+   85  ./md.py
+   86  fg
+   87  nano try.py
+   88  fg
+   89  chmod 744 try.py
+   90  ./try.py
+   91  chmod 744 try.py
+   92  nano try.py
+   93  ./try.py
+   94  nano try.py
+   95  ./try.py
+   96  nano try.py
+   97  ./try.py
+   98  nano try.py
+   99  ./try.py
+  100  nano try.py
+  101  ./try.py
+  102  nano try.py
+  103  ./try.py
+  104  nano try.py
+  105  ./try.py
+  106  nano try.py
+  107  ./try.py
+  108  nano try.py
+  109  ./try.py
+  110  nano try.py
+  111  ./try.py
+  112  nano try.py
+  113  ./try.py
+  114  nano try.py
+  115  ./try.py
+  116  nano try.py
+  117  ./try.py
+  118  nano try.py
+  119  ./try.py
+  120  nano try.py
+  121  ./try.py
+  122  nano try.py
+  123  ./try.py
+  124  nano try.py
+  125  ./try.py
+  126  nano try.py
+  127  ./try.py
+  128  nano try.py
+  129  ./try.py
+  130  nano try.py
+  131  ./try.py
+  132  nano try.py
+  133  ./try.py
+  134  nano try.py
+  135  ./try.py
+  136  nano try.py
+  137  ./try.py
+  138  nano try.py
+  139  ./try.py
+  140  nano try.py
+  141  ./try.py
+  142  nano try.py
+  143  ./try.py
+  144  nano try.py
+  145  ./try.py
+  146  nano try.py
+  147  ./try.py
+  148  nano try.py
+  149  ./try.py
+  150  nano try.py
+  151  ./try.py
+  152  nano try.py
+  153  git clone github.com/elviragilazutdinova/DMI/.git
+  154  git clone github.com/elviragilazutdinova/DMI.git
+  155  git clone http://github.com/elviragilazutdinova/DMI.git
+  156  cd DMI
+  157  cd PYTHON
+  158  cat sin_caur_summu_ver2.py
+  159  sin_caur_summu_ver2.py
+  160  1
+  161  chmod 744 sin_caur_summu_ver2.py
+  162  cat sin_caur_summu_ver2.py
+  163  chmod 744 sin_caur_summu_ver2.py fgfg
+  164  chmod 744 sin_caur_summu_ver2.py
+  165  ./sin_caur_summu_ver2.py
+  166  nano sin_caur_summu_ver2.py
+  167  ./sin_caur_summu_ver2.py
+  168  nano sin_caur_summu_ver2.py
+  169  ./sin_caur_summu_ver2.py
+  170  cp sin_caur_summu_ver2.py sin_caur_summu_ver3.py
+  171  nano sin_caur_summu_ver3.py
+  172  ./sin_caur_summu_ver3.py
+  173  python sin_caur_summu_ver3.py
+  174  python sin_caur_summu_ver4.py
+  175  nano sin_caur_summu_ver4.py
+  176  python sin_caur_summu_ver4.py
+  177  nano sin_caur_summu_ver5.py
+  178  python sin_caur_summu_ver5.py
+  179  nano sin_caur_summu.py
+  180  python sin_caur_summu.py
+  181  nano zimeshana.py
+  182  python zimeshana.py
+  183  cp sin_caur_summu.py sin_caur_summu_zimeshana.py
+  184  nano sin_caur_summu_zimeshana.py
+  185  python sin_caur_summu_zimeshana.py
+  186  ls -l
+  187  cd..
+  188  cd ..
+  189  history > history_20171129.txt
