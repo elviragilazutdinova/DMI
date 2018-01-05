@@ -1,0 +1,8 @@
+    1  git clone https://github.com/elviragilazutdinova/DMI.git
+    2  cd DMI
+    3  dc PYTHON
+    4  cd PYTHON
+    5  idle &
+    6  ls -lt
+    7  cd ..
+    8  history > history_20180105.txt
