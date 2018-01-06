@@ -1,0 +1,9 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/elviragilazutdinova/DMI.git
+    3  cd DNI
+    4  cd DMI
+    5  cd PYTHON
+    6  idle &
+    7  history > history_20180106.txt
+    8  cd ..
+    9  history > history_20180106.txt

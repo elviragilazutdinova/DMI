@@ -34,4 +34,8 @@ yy_prim = 1/np.sqrt(1-x*x)
 plt.plot(x[:n-1],y_prim,'g',x,yy_prim)
 plt.show()
 
- 
+y_prim2= []
+for i in range (n-2):
+    y_prim2.append((y_prim[i+1]-y_prim[i])/(x[i]-x[i-1]))
+plt.plot(x[:n-2],y_prim2)
+plt.show() 
