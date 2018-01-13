@@ -1,0 +1,14 @@
+    1  VirtualBox --startvm XP
+    2  git upload https://github.com/elviragilazutdinova/DMI.git
+    3  git clone  https://github.com/elviragilazutdinova/DMI.git
+    4  cd DMI
+    5  mkdir FINAL
+    6  cd FINAL/
+    7  nano index.html
+    8  fg
+    9  nano index.html
+   10  cd ..
+   11  cd PYTHON
+   12  idle &
+   13  cd ..
+   14  history > history_2018_01_13.txt
