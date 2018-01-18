@@ -1,0 +1,86 @@
+    1  VirtualBox --startvm XP
+    2  firefox
+    3  user
+    4  home
+    5  documents
+    6  desktop
+    7  matlab
+    8  firefox
+    9  git clone https://github.com/PelevinRoman/DMI
+   10  cd DMI
+   11  ls
+   12  nano statistika.sh
+   13  ./statistika.sh 50 20 13
+   14  nano statistika.sh
+   15  ./statistika.sh 50 20 13
+   16  chmod 744
+   17  chmod statistika.sh 744
+   18  ./statistika.sh 50 20 13
+   19  chmod 744 statistika.sh
+   20  ./statistika.sh 50 20 13
+   21  PYTHON
+   22  ./statistika.sh 50 20 12
+   23  ls
+   24  mkdir PHYTON
+   25  mkdir PYTHON
+   26  ls
+   27  cd PYTHON
+   28  nano tabulamajas.py
+   29  2
+   30  1
+   31  1 2 3
+   32  chmod 744 tabulamajas.py
+   33  ./tabulamajas.py
+   34  nano dichotomy.py
+   35  chmod 744 dichotomy.py
+   36  ./dichotomy.py 1
+   37  2
+   38  22
+   39  rm -rf PYTHON
+   40  ls
+   41  rm -rf PYTHON/
+   42  PYTHON..
+   43  PYTHON ..
+   44  ls -l
+   45  rm PYTHON
+   46  exit
+   47  firefox &
+   48  d
+   49  git clone https://github.com/PelevinRoman/DMI
+   50  cd DMI
+   51  nano statistika.sh
+   52  cd PYTHON
+   53  ls
+   54  history > history_20181801
+   55  cd ..
+   56  history > history_20181801.txt
+   57  cat git-upload
+   58  ./git-upload
+   59  git clone https://elviragilazutdinova/DMI.git
+   60  rm -rf DMI
+   61  git clone https://elviragilazutdinova/DMI.git
+   62  git clone https://github.com/elviragilazutdinova/DMI.git
+   63  cd DMI
+   64  ls -l
+   65  nano a_VS_v_VS_c.sh
+   66  nano a_VS_b_VS_c.sh
+   67  ./a_VS_b_VS_c.sh
+   68  nano a_VS_b_VS_c.sh
+   69  nano sorting.sh
+   70  fg
+   71  ./sorting.sh
+   72  nano sorting.sh
+   73  ./sorting.sh
+   74  ./sorting.sh 1
+   75  nano sorting.sh
+   76  ./sorting.sh 1 2 3
+   77  nano sorting.sh
+   78  ./sorting.sh 1 2 3
+   79  ./sorting.sh 3 2 1
+   80  nano sorting.sh
+   81  ./sorting.sh 3 2 1
+   82  nano sorting.sh
+   83  cd PYTHON
+   84  idle &
+   85  cd ..
+   86  history > history_20180117.txt

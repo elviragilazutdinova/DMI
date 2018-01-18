@@ -1,6 +1,6 @@
 a = input ("Lietotaj, ievadi skaitli 'a': ")
 print " "
-print "        Jūsu tabula"
+print "  Jūsu tabula ar atlikumiem"
 print "   Dalot 'a' ar skaitlim: "
 print "       1, 2, 3, 4, 5, 10"
 print " "
