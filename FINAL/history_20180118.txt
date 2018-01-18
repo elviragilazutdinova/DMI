@@ -10,9 +10,7 @@
    10  nano index.html
    11  cd ..
    12  history > history_20180118.txt
-   13* ./git-upload 20180118_01_18
+   13  ./git-upload 20180118_01_11
    14  cd FINAL
    15  nano index.html
    16  history > history_20180118.txt
-   17  cd ..
-   18  history > history_20180118.txt
