@@ -1,0 +1,12 @@
+    1  git clone https://github.com/elviragilazutdinova/DMI.git
+    2  ls -l
+    3  cd DMI
+    4  ls -l
+    5  cd FINAL
+    6  nano index.html
+    7  fg
+    8  nano index.html
+    9  fg
+   10  nano index.html
+   11  cd ..
+   12  history > history_20180118.txt
