@@ -1,7 +1,7 @@
 a = input ("Lietotaj, ievadi skaitli 'a': ")
 print " "
 print "  Jūsu tabula ar atlikumiem"
-print "   Dalot 'a' ar skaitlim: "
+print "Dalot 'a' un vēl 10 ar skaiļiem: "
 print "       1, 2, 3, 4, 5, 10"
 print " "
 k=a
