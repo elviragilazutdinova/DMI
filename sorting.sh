@@ -1,65 +1,5 @@
 #!/bin/bash
 
-a=$a
-b=$b
-c=$c
-if [ $a -gt $b ] && [ $a -gt $c ] && [ $b -gt $c ]
-then
-echo "$c, $b, $a"
-else 
-if [ $a -gt $b ] && [ $a -gt $c ] && [ $b -lt $c ]
-then 
-echo "$b, $c, $a"
-else
-if [ $a -lt $b ] && [ $a -gt $c ] && [ $b -gt $c ]
-then 
-echo "$c, $a, $b"
-else
-if [ $a -gt $b ] && [ $a -lt $c ] && [ $b -lt $c ]
-then 
-echo "$b, $a, $c"
-else
-if [ $a -lt $b ] && [ $a -lt $c ] && [ $b -gt $c ]
-then 
-echo "$a, $b, $c"
-else
-if [ $a -lt $b ] && [ $a -lt $c ] && [ $b -gt $c ]
-then 
-echo "$a, $c, $b"
-
-fi
-fi
-fi
-fi
-fi
-fi
-
-
-: <<"END"
-a=$1
-b=$2
-c=$3
-if (( $a > $b && $a > $c && $b > $c ))
-then
-echo "$c, $b, $a"
-else 
-echo "$b, $c, $a"
-if (( $b > $a && $b > $c && $a > $c ))
-then 
-echo "$b, $a, $c"
-if (( $c > $a && $b > $c && $a > $c ))
-then 
-echo "$b, $a, $c"
-fi
-fi
-fi
-
-END
-
-
-: <<"END"
-
-
 echo "Input: a"
 read a
 echo "Input: b"
@@ -67,14 +7,138 @@ read b
 echo "Input: c"
 read c
 
-a=$1
-#if (()) ... fi
-#if (()) ... elif (()) ... elif (()) ... else ... fi
-if (( $a > 0 )); then
-   echo "Izdruka no galvenā if zara (jā) - tad, kad $a ir  >0 "
-elif (( $a == 0 )); then
-   echo "Izdruka no if alternativā zara (tikai jā gadijumā) - tad, kad $a ir  >0 "
+d=`expr $a + $b + $c`
+d2=`expr $d % 3`
+d3=`expr $d2 \* 10`
+d4=`expr $d3 / 3`
+d5=`expr $d / 3`
+
+if [ $a -gt $b ] && [ $a -gt $c ] && [ $b -gt $c ]
+then
+echo "Minimālā vērtība: = $c"
+echo "Vidējā vērtība: = $d5.$d4"
+echo "Maximālā vērtība: = $a" 
+echo "Sakārtošana: $c, $b, $a"
+echo "Mediāna: $b"
+echo "Modas nav"
+
+else 
+if [ $a -gt $b ] && [ $a -gt $c ] && [ $b -lt $c ]
+then 
+echo "Minimālā vērtība: = $b"
+echo "Vidējā vērtība: = $d5.$d4"
+echo "Maximālā vērtība: = $a" 
+echo "Sakārtošana: $b, $c, $a"
+echo "Mediāna: $c"
+echo "Modas nav"
 else
-   echo "Izdruka no galvenā if zara (nē) - tad, kad $a nav >0 "
+if [ $a -lt $b ] && [ $a -gt $c ] && [ $b -gt $c ]
+then 
+echo "Minimālā vērtība: = $c"
+echo "Vidējā vērtība: = $d5.$d4"
+echo "Maximālā vērtība: = $b" 
+echo "Sakārtošana: $c, $a, $b"
+echo "Mediāna: $a"
+echo "Modas nav"
+else
+if [ $a -gt $b ] && [ $a -lt $c ] && [ $b -lt $c ]
+then 
+echo "Minimālā vērtība: = $b"
+echo "Vidējā vērtība: = $d5.$d4"
+echo "Maximālā vērtība: = $c" 
+echo "Sakārtošana: $b, $a, $c"
+echo "Mediāna: $a"
+echo "Modas nav"
+else
+if [ $a -lt $b ] && [ $a -lt $c ] && [ $b -lt $c ]
+then 
+echo "Minimālā vērtība: = $a"
+echo "Vidējā vērtība: = $d5.$d4"
+echo "Maximālā vērtība: = $c" 
+echo "Sakārtošana: $a, $b, $c"
+echo "Mediāna: $b"
+echo "Modas nav"
+else
+if [ $a -lt $b ] && [ $a -lt $c ] && [ $b -gt $c ]
+then 
+echo "Minimālā vērtība: = $a"
+echo "Vidējā vērtība: = $d5.$d4"
+echo "Maximālā vērtība: = $b" 
+echo "Sakārtošana: $a, $c, $b"
+echo "Mediāna: $c"
+echo "Modas nav"
+
 fi
-END
+fi
+fi
+fi
+fi
+fi
+
+if [ $a -eq $b ] && [ $a -gt $c ]
+then
+echo "Minimālā vērtība: = $c"
+echo "Vidējā vērtība: = $d5.$d4"
+echo "Maximālā vērtība: = $a" 
+echo "Sakārtošana: $c, $a, $b"
+echo "Mediāna: $a"
+echo "Moda = $a"
+else
+if [ $a -eq $b ] && [ $a -lt $c ]
+then
+echo "Minimālā vērtība: = $a"
+echo "Vidējā vērtība: = $d5.$d4"
+echo "Maximālā vērtība: = $c" 
+echo "Sakārtošana: $b, $a, $c"
+echo "Mediāna: $a"
+echo "Moda = $a"
+
+else 
+if [ $c -eq $b ] && [ $c -gt $a ]
+then 
+echo "Minimālā vērtība: = $a"
+echo "Vidējā vērtība: = $d5.$d4"
+echo "Maximālā vērtība: = $c" 
+echo "Sakārtošana: $a, $c, $b"
+echo "Mediāna: $c"
+echo "Moda = $c"
+
+else 
+if [ $c -eq $b ] && [ $c -lt $a ]
+then 
+echo "Minimālā vērtība: = $c"
+echo "Vidējā vērtība: = $d5.$d4"
+echo "Maximālā vērtība: = $a" 
+echo "Sakārtošana: $b, $c, $a"
+echo "Mediāna: $c"
+echo "Moda = $c"
+
+else 
+if [ $c -eq $a ] && [ $c -gt $b  ]
+then 
+echo "Minimālā vērtība: = $b"
+echo "Vidējā vērtība: = $d5.$d4"
+echo "Maximālā vērtība: = $a" 
+echo "Sakārtošana: $b, $a, $c"
+echo "Mediāna: $a"
+echo "Moda = $a"
+
+else 
+if [ $c -eq $a ] && [ $c -lt $b  ]
+then 
+echo "Minimālā vērtība: = $c"
+echo "Vidējā vērtība: = $d5.$d4"
+echo "Maximālā vērtība: = $b" 
+echo "Sakārtošana: $c, $a, $b"
+echo "Mediāna: $a"
+echo "Moda = $a"
+
+fi
+fi
+fi
+fi
+fi
+fi
+
+
+#END
